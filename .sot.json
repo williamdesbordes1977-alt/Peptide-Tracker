@@ -1,0 +1,9 @@
+{
+  "project": "Peptide-Tracker",
+  "canonical_repo": "williamdesbordes1977-alt/Peptide-Tracker",
+  "deploy_branch": "main",
+  "isolation": "single",
+  "country_scope": "single",
+  "policy_ref": "registry/source-of-truth.manifest.json in sovereign-workspace",
+  "note": "Canonical source of truth. Do not push this project to any other repo. Guarded by scripts/governance/sot-guard.mjs (pre-push + CI). New clones: git config core.hooksPath .githooks"
+}
